@@ -20,13 +20,13 @@
     <%- end -%>
     <%- if @active_response_location -%>
     <location><%= @active_response_location %></location>
-    <%- end -%> 
+    <%- end -%>
     <%- if @active_response_level -%>
     <level><%= @active_response_level %></level>
-    <%- end -%> 
+    <%- end -%>
     <%- if @active_response_agent_id -%>
     <agent_id><%= @active_response_agent_id %></agent_id>
-    <%- end -%> 
+    <%- end -%>
     <%- if !@active_response_rules_id.empty? -%>
     <rules_id><%= @active_response_rules_id.join(',') %></rules_id>
     <%- end -%>
